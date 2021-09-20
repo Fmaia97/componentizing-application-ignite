@@ -3,7 +3,7 @@ import { GenreResponseProps } from '../App'
 interface SideBarProps {
   genres: Array<GenreResponseProps>
   handleClick: any;
-  selectedGenre: any;
+  selectedGenre: number;
 }
 
 export function SideBar({ genres, handleClick, selectedGenre }: SideBarProps) {

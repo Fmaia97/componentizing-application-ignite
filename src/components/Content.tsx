@@ -3,7 +3,9 @@ import { MovieProps } from '../App';
 
 interface MovieCard {
   movies: Array<MovieProps>
-  selectedGenre: any;
+  selectedGenre:{
+    title: string
+  }
 }
 
 export function Content({ movies, selectedGenre }: MovieCard) {
